@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZAPI_S_ROLE</TABNAME>
+    <TABCLASS>INTTAB</TABCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZAPI_S_ROLE</TABNAME>
+     <FIELDNAME>_AUTHORIZATION_GROUP</FIELDNAME>
+     <POSITION>0001</POSITION>
+     <ROLLNAME>BU_AUGRP</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZAPI_S_ROLE</TABNAME>
+     <FIELDNAME>_BUSINESS_PARTNER</FIELDNAME>
+     <POSITION>0002</POSITION>
+     <ROLLNAME>BU_PARTNER</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZAPI_S_ROLE</TABNAME>
+     <FIELDNAME>_BUSINESS_PARTNER_ROLE</FIELDNAME>
+     <POSITION>0003</POSITION>
+     <ROLLNAME>BU_PARTNERROLE</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>D</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>T</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Role</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
